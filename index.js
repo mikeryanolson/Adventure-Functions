@@ -9,20 +9,34 @@ var monsters = [
 	"troll",
 	"alien mothership",
 	"illithid",
+	"Trump-monster",
+	"Butthole-Generator",
+	"Poisoned Soup",
+	"Marcus"
 ];
 
 var weapons = [
 	"deadly dagger",
 	"artful axe",
 	"skillful swordplay",
-	"menacing mace"
+	"menacing mace",
+	"Greek Yogurt",
+	"very long stick",
+	"dashing good looks",
+	"cheese quesedilla"
 ];
 
 var actions = [
 	"defeated",
 	"attacked",
 	"ran from",
-	"talked to"
+	"talked to",
+	"had dinner with",
+	"littly bruised",
+	"embarassed",
+	"literally murdered",
+	"went on a tinder-date with"
+
 ];
 
 // var heroGender;
@@ -80,6 +94,7 @@ function newAdventure(){
 
 	document.getElementById("adventure").innerText = output;
 }
+newAdventure();
 	document.getElementById("new_adventure").onclick = newAdventure;
 
 
